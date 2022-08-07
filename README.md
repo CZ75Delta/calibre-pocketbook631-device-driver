@@ -10,7 +10,7 @@ The PocketBook supports to mark a book as read. To synchronize this status with 
 
 This is a two-way sync, no matter where you mark a book as read (on the device or in Calibre), the read status is synchronized on both platforms.
 
-# This might give imperfect results if there are multiple files with the same name.
+#### This might give imperfect results if there are multiple files with the same name.
 
 ### Database Cleanup
 The corresponding database entries on the device are not deleted when you delete a book on the device, leaving lots of abandoned database entries over time. Of course, theses entries doesn't hurt, but to keep the database in a clean and consistent state, a database cleanup is performed on every device connect.
